@@ -1,0 +1,9 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "header header"
+    " sidebar ."
+    "footer footer";
+}

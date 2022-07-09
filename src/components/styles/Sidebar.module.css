@@ -1,0 +1,5 @@
+.container {
+  display: grid;
+  grid-area: sidebar;
+  text-align: right;
+}

@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Vazir";
+  src: local("Vazir"), url(./assets/Vazir.woff);
+}
+
+body {
+  margin: 0;
+  font-family: "Vazir", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+html {
+  min-height: 100% !important;
+}
+
+body {
+  min-height: 100vh !important;
+}

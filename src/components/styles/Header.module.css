@@ -1,0 +1,93 @@
+.container {
+  display: grid;
+  grid-area: header;
+  grid-template-columns: 1fr 1fr;
+  padding: 1rem 1rem 1rem 2rem;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.3);
+}
+
+.right-col {
+  display: grid;
+  grid-template-columns: 2fr 1fr 4fr;
+}
+
+.left-col {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 3fr;
+  justify-self: end;
+}
+
+.cc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem;
+  color: rgba(0, 0, 0, 0.56);
+  font-size: 1vw;
+  text-decoration: none;
+}
+
+.support:hover,
+.chat:hover,
+.profile:hover,
+.category:hover {
+  background-color: antiquewhite;
+  border-radius: 5px;
+}
+
+.cc:hover {
+  color: black;
+}
+
+.category {
+  margin-left: 1rem;
+}
+
+/*
+
+.logo {
+  
+} 
+
+*/
+
+.logo img {
+  width: 100%;
+  max-width: 130px;
+}
+
+.register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.register button {
+  background-color: #a62626;
+  color: white;
+  padding: 0.3rem 0.8rem;
+  font-family: inherit;
+  font-size: 1vw;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register button:hover {
+  background-color: antiquewhite;
+  color: black;
+  font-weight: bold;
+}
+
+/* 
+
+.support {
+}
+
+.chat {
+}
+
+.profile {
+
+}  
+
+*/

@@ -1,0 +1,27 @@
+.title {
+  font-size: 14px;
+}
+
+.categories {
+  width: 100%;
+  padding-right: 2rem;
+}
+
+.categories ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: none;
+  padding-right: 0;
+}
+
+.categories ul li {
+  color: rgba(0, 0, 0, 0.56);
+  font-size: 1.0vmax;
+  padding: 0.8rem 0 0 0;
+}
+
+.categories ul li:hover {
+  color: black;
+  cursor: pointer;
+}
