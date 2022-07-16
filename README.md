@@ -18,6 +18,7 @@ An Online Classified Advertisement website, built with ReactJS.
 
 
 ## Features
+- Responsive design
 - Functional component based
 - Redux-Toolkit state managment used
 - Firebase (Realtime Database) used for storing data
