@@ -6,7 +6,7 @@ An Online Classified Advertisement website, built with ReactJS.
 ## Technologies
 [![React](https://img.shields.io/badge/React-18.1.0-blue)](#)
 
-[![Redux-Toolkit](https://img.shields.io/badge/Reduxjs/Toolkit-1.8.3-red)](#)
+[![Redux-Toolkit](https://img.shields.io/badge/ReduxToolkit-1.8.3-red)](#)
 
 [![React Router](https://img.shields.io/badge/Reactrouter-6.3.0-green)](#)
 
@@ -20,7 +20,7 @@ An Online Classified Advertisement website, built with ReactJS.
 ## Features
 - Responsive design
 - Functional component based
-- Redux-Toolkit state managment used
+- Redux-Toolkit state management used
 - Firebase (Realtime Database) used for storing data
 - CSS Grid styling system
 
